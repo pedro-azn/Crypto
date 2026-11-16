@@ -1,0 +1,40 @@
+{
+  "kraken": {
+    "data_path": "C:/Users/helen/Downloads/Kraken_Complete.zip",
+    "pairs": ["ETHUSD", "ETHCAD", "ETHGBP", "ETHEUR"],
+    "timeframe": 60,
+    "n_rows": null
+  },
+  "uniswap": {
+    "start": "2025-07-01",
+    "end": "2026-10-01",
+    "timeframe": 60,
+    "bucket": "stablecoin",
+    "output_dir": "OHLCVT",
+    "page_size": 1000,
+    "max_retries": 5,
+    "network": "eth",
+    "gateway": "https://gateway.thegraph.com/api",
+    "subgraphs": {
+      "eth": "5zvR82QoaXYFyDEKLZ9t6v9adgnptxYpKpSbxtgVENFV"
+    },
+    "weth": {
+      "eth": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+    },
+    "assets": {
+      "USDC": {"network": "eth", "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48", "bucket": "stablecoin"},
+      "USDT": {"network": "eth", "address": "0xdac17f958d2ee523a2206206994597c13d831ec7", "bucket": "stablecoin"},
+      "DAI": {"network": "eth", "address": "0x6b175474e89094c44da98b954eedeac495271d0f", "bucket": "stablecoin"},
+      "wstETH": {"network": "eth", "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0", "bucket": "lst"},
+      "rETH": {"network": "eth", "address": "0xae78736cd615f374d3085123a210448e74fc6393", "bucket": "lst"},
+      "cbETH": {"network": "eth", "address": "0xbe9895146f7af43049ca1c1ae358b0541ea49704", "bucket": "lst"},
+      "weETH": {"network": "eth", "address": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee", "bucket": "lst"},
+      "UNI": {"network": "eth", "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984", "bucket": "defi_l2"},
+      "AAVE": {"network": "eth", "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9", "bucket": "defi_l2"},
+      "CRV": {"network": "eth", "address": "0xd533a949740bb3306d119cc777fa900ba034cd52", "bucket": "defi_l2"},
+      "LDO": {"network": "eth", "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32", "bucket": "defi_l2"},
+      "ARB": {"network": "eth", "address": "0xb50721bcf8d664c30412cfbc6cf7a15145234ad1", "bucket": "defi_l2"},
+      "POL": {"network": "eth", "address": "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6", "bucket": "defi_l2"}
+    }
+  }
+}

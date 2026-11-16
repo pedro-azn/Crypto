@@ -1,0 +1,11 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+.thegraph_key
+.env
+
+OHLCVT/
+*.zip
